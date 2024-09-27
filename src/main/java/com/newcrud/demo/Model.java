@@ -7,7 +7,10 @@ import jakarta.persistence.Table;
 @Entity
 @Table(name="Employee")
 public class Model {
-	
+	/**
+	 * Name of the User
+	 * Password to security
+	 */
 	@Id
 	private String Username;
 	private String Password;
